@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+  }
+  .nav-btn1,
+  .nav-btn2,
+  .head-btn {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    padding: 7px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: transparent;
+  }
+  
+  .nav-btn2,
+  .head-btn {
+    background-color: rgba(55, 43, 122, 0.882);
+    color: #fff;
+    border-radius: 5px;
+  }
+  .nav-btn2:hover {
+    background-color: rgba(87, 77, 145, 0.882);
+  }
+  .head-item {
+    color: rgba(55, 43, 122, 0.882);
+  }
+  .para-item {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .head-btn {
+    text-transform: uppercase;
+    padding: 7px 35px;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .mg-5auto {
+    margin: 11% auto;
+  }
+  .container + section {
+    z-index: -10;
+  }
+  .card-section h3,
+  .why-choose {
+    color: rgba(55, 43, 122, 0.882);
+  }
+  .card-item {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+  }
+  .card-item-footer {
+    background-color: #ee5564d3;
+    padding: 4px;
+  }
+  .my-section,
+  .wave-buttom {
+    margin-top: -2px;
+  }
+  .my-section {
+    background-color: #5000ca;
+  }
+  .my-section .para-item,
+  .my-section h3 {
+    color: #fff;
+  }
+  /* what I added  */
+  .reasons {
+    position: relative;
+  }
+  .reasons .row {
+    width: 100%;
+  }
+  .why{
+    background-color: #fff;
+  }
+  @media screen and (min-width: 992px) {
+    .why {
+      position: absolute;
+      width: unset;
+      left: 47%;
+      top: 40%;
+      font-size: 20px;
+      font-weight: 700;
+    }
+}
+@media screen and (max-width:540px) {
+  .why {
+    position: absolute;
+    width: unset;
+    left: 50%;
+    top: 43%;
+    font-size: 20px;
+ 
+  }
+}
+.inter{
+  width: 60%;
+}
+
+.tel{
+  width: 100%;
+  margin-top: 90px;
+}
+.come{
+  background-color: paleturquoise;
+}
+.comme{
+  background-color: blue;
+}
+.commme{
+  background-color: violet;
+}
+.black{
+  color: black;
+}
+.testimonial-sec{
+  display: flex;
+  justify-content: center;
+}
+.fa {
+  padding: 10px 5px;
+  box-shadow: rgba (0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12);
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(0, 0. 0, 0.4);
+  cursor:pointer;
+}
+.fa :hover{
+background: #5500CA;
+color: #fff;
+}
+.text-card{
+  box-shadow: rgba(0,0, 0, 0.25) 0px 54px 55px ;
+  padding: 44px 58px;
+  
+}
+.green{
+  fcolor: green;
+}
